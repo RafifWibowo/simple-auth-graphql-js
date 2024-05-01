@@ -1,0 +1,24 @@
+{
+  "name": "simple-auth-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "migrate": "node db/migrate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mysql2": "^3.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
